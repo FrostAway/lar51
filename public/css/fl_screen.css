@@ -1,0 +1,116 @@
+.clearfix {
+  clear: both;
+}
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.sizing-border {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+.sizing-content {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -o-box-sizing: content-box;
+}
+@media screen and (max-width: 1200px) {
+  
+}
+@media screen and (max-width: 992px) {
+  .place-content form .place-field {
+    width: 33.33%;
+  }
+  .header-slide .slides .slide .sl-title {
+    font-size: 27px;
+  }
+  .header-slide .slides .slide .sub-title {
+    font-size: 20px;
+  }
+  .banner-sb {
+    padding-left: 0;
+  }
+  .slider .slides {
+    margin-bottom: 15px;
+  }
+  .slider .slides .slide img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #bs-example-navbar-collapse-1 ul.navbar-nav li a i {
+    text-align: left;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  .place-content form .place-field {
+    width: 50%;
+  }
+  .header-slide .slides .slide .sl-title {
+    font-size: 20px;
+  }
+  .header-slide .slides .slide .sub-title {
+    font-size: 17px;
+  }
+  .box .box-title {
+    text-align: center;
+    font-size: 24px;
+  }
+  .posts .post {
+    text-align: center;
+  }
+  .posts .post .image img {
+    display: inline-block;
+  }
+  .banner-sb .contact h4 {
+    font-size: 18px;
+  }
+  .slider .slides {
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+  .slider .slides .next {
+    right: 20px;
+  }
+  .slide-content-2 .container {
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .place-content form .place-field {
+    width: 100%;
+  }
+  .slide-content-2 .container {
+    padding-right: 5px;
+  }
+}
+@media screen and (min-width: 480px) {
+  
+}
+@media screen and (min-width: 768px) {
+  
+}
+@media screen and (min-width: 992px) {
+  
+}
+@media screen and (min-width: 1200px) {
+  
+}
+@media screen and (min-width: 1300px) {
+  .container {
+    width: 1250px;
+  }
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
